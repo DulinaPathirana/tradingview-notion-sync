@@ -11,6 +11,10 @@ from datetime import datetime
 from typing import List, Dict, Optional
 from collections import defaultdict
 import requests
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Configuration
 class Config:
